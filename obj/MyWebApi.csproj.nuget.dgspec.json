@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/chaaminimangaleswaran/Documents/csharpService/MyWebApi/MyWebApi.csproj": {}
+    "/Users/chaaminimangaleswaran/Documents/csharpService/demo/demo/MyWebApi.csproj": {}
   },
   "projects": {
-    "/Users/chaaminimangaleswaran/Documents/csharpService/MyWebApi/MyWebApi.csproj": {
+    "/Users/chaaminimangaleswaran/Documents/csharpService/demo/demo/MyWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chaaminimangaleswaran/Documents/csharpService/MyWebApi/MyWebApi.csproj",
+        "projectUniqueName": "/Users/chaaminimangaleswaran/Documents/csharpService/demo/demo/MyWebApi.csproj",
         "projectName": "MyWebApi",
-        "projectPath": "/Users/chaaminimangaleswaran/Documents/csharpService/MyWebApi/MyWebApi.csproj",
+        "projectPath": "/Users/chaaminimangaleswaran/Documents/csharpService/demo/demo/MyWebApi.csproj",
         "packagesPath": "/Users/chaaminimangaleswaran/.nuget/packages/",
-        "outputPath": "/Users/chaaminimangaleswaran/Documents/csharpService/MyWebApi/obj/",
+        "outputPath": "/Users/chaaminimangaleswaran/Documents/csharpService/demo/demo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/chaaminimangaleswaran/.nuget/NuGet/NuGet.Config"
