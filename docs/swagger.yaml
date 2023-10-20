@@ -1,0 +1,19 @@
+openapi: 3.0.0
+info:
+  title: MultiplicationService
+  version: 1.0.0
+servers:
+  - url: http://localhost:5000
+paths:
+  /api/multiply:
+    post:
+      summary: MultiplicationService
+      requestBody:
+        required: true
+        content:
+          text/plain:
+            schema:
+              type: integer
+      responses:
+        "200" : 
+          description: Successful operation
