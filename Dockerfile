@@ -15,5 +15,5 @@ FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS runtime
 WORKDIR /app
 COPY --from=build /app/out ./
 USER 10016
-
+EXPOSE 5000
 ENTRYPOINT ["dotnet", "MyWebApi.dll"]
