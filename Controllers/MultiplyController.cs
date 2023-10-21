@@ -2,14 +2,16 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MyWebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class MultiplyController : ControllerBase
     {
-        [HttpPost]
-        public ActionResult<int> MultiplyByTen([FromBody] int number)
+       [HttpGet("{id}")]
+        public ActionResult<int> Multiply(int id)
         {
-            int result = number * 10;
+            // Multiply the id parameter
+            int result = id * 10; // Multiplying by 10 as per the original request
+
             return Ok(result);
         }
     }

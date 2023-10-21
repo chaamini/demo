@@ -1,19 +1,26 @@
 openapi: 3.0.0
 info:
-  title: MultiplicationService
+  title: Multiply API
+  description: A simple API to multiply numbers.
   version: 1.0.0
-servers:
-  - url: http://localhost:5000
 paths:
-  /api/multiply:
-    post:
-      summary: MultiplicationService
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-              type: integer
+  /multiply/{id}:
+    get:
+      summary: Multiply a number by 10
+      description: Multiplies the provided number by 10.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: The number to be multiplied by 10
       responses:
-        "200" : 
+        '200':
           description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: integer
+        '400':
+          description: Invalid input
